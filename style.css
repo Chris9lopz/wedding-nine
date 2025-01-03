@@ -1,0 +1,36 @@
+/*Essential Container Styles*/
+.no-padding {
+  padding: 0 !important;
+}
+
+/*Background Styles*/
+.bg-head {
+  background: url("./img/bg_header.jpg") no-repeat;
+  background-size: cover;
+}
+
+.bg-section-1 {
+  background-color: #7b815d;
+}
+
+.bg-section-2 {
+  background-color: #fde8e7;
+}
+
+.bg-section-4 {
+  background-color: #d6b4ab;
+}
+
+/*Fonts Styles*/
+.title-font {
+  font-family: "Rouge Script", serif;
+}
+
+.p-font {
+  font-family: "DM Sans", serif;
+}
+
+.btn-default {
+  width: auto;
+  display: inline-block;
+}
