@@ -3,6 +3,10 @@
   padding: 0 !important;
 }
 
+.no-padding-right {
+  padding-right: 0 !important;
+}
+
 /*Background Styles*/
 .bg-head {
   background: url("./img/bg_header.jpg") no-repeat;
@@ -33,4 +37,20 @@
 .btn-default {
   width: auto;
   display: inline-block;
+  background-color: #bba58e;
+  color: #fde8e7;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.btn-default:hover {
+  background-color: #7b815d;
+  color: #fde8e7;
+}
+
+.custom-img {
+  width: 130px; /* Ajusta el ancho de la imagen */
+  height: auto; /* Mantiene la proporción de aspecto */
+  display: block; /* Asegura que la imagen se comporte como un bloque */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
 }
