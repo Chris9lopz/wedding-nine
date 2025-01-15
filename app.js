@@ -25,3 +25,20 @@ let x = setInterval(function () {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+// Music Script
+const audio = new Audio("audio/intro_music.mp3");
+const musicIcon = document.getElementById("music-icon");
+
+const audioBackground = function () {
+  if (audio.paused) {
+    audio.currentTime = 0; // Reinicia el audio al principio
+    audio.play().catch((error) => {
+      console.log("Error al reproducir audio:", error);
+    });
+    musicIcon.src = "img/pause_me.png"; // Cambia la imagen a "pausar"
+  } else {
+    audio.pause(); // Pausa el audio
+    musicIcon.src = "img/play_me.png"; // Cambia la imagen a "reproducir"
+  }
+};

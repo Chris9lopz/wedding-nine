@@ -25,54 +25,122 @@
         <h1 class="title-font text-center displat-2">
           Vanessa Herrera</br> &</br> Christian López</br>
         </h1>
+        <a class="music-button" value="sound" onclick="audioBackground()"">
+        <img id="music-icon" src="img/play_me.png" alt="">
+        </a>
       </header>
       <section class="bg-section-1  pt-5 pb-5 mb-4 text-center">
         <h2 class="title-font text-light display-4">Separen la fecha</h2>
         <p id="demo" class="title-font display-6 text-light"></p>
       </section>
-      <section class="bg-section-2 pt-5 pb-5 mb-4">
-        <div class="row text-center mb-4">
+      <section class="bg-section-2 pt-5 pb-5 mb-4 no-padding-right">
+        <div class="row text-center">
           <h2 class="title-font display-4">Ceremonia</h2>
           <img class="custom-img" src="img/iglesia_icon.png" alt="Iglesia">
           <p class="p-font fw-bold mt-4">EL LUGAR DE SU PRESENCIA</p>
           <p class="p-font">21 de junio a las 11:00 hs</p>
           <address class="p-font">Cl. 95 Bis #50-36</br> Bogotá, CO</br> </address>
-          <button type="button" class="btn btn-default m-auto">CÓMO LLEGAR</button>
+          <a href="https://maps.app.goo.gl/yX5mbGvV2JTtrSky9" target="_blank" class="btn btn-default m-auto mb-4">CÓMO LLEGAR</a>
         </div>
         <div class="row text-center">
           <h2 class="title-font display-4">Recepción</h2>
           <img class="custom-img" src="img/rings_icon.png" alt="Anillos Icon">
-          <p class="p-font fw-bold mt-4">LA ENLOMADA</p>
+          <p class="p-font fw-bold mt-4">HACIENDA LAGOS DE TOLEDO</p>
           <p class="p-font">21 de junio a las 11:00 hs</p>
-          <address class="p-font">Cra. 90 #159A-46</br> Bogotá, CO</br> </address>
-          <button type="button" class="btn btn-default m-auto">CÓMO LLEGAR</button>
+          <address class="p-font">Después del Peaje de Patios </br> Camino viejo a Monserrate</br> La Calera, CUN</br> </address>
+          <a href="https://maps.app.goo.gl/zStpArN6zZuLQNw49" target="_blank" class="btn btn-default m-auto">CÓMO LLEGAR</a>
         </div>
       </section>
-      <section class=" pt-5 pb-5 mb-4">
+      <section class="mt-4 mb-4 no-padding-right">
         <div class="row">
           <h2 class="title-font display-4 text-center">Nosotros</h2>
+          <p class="text-center p-font pt-2 pb-3">«Cuando te das cuenta que quieres pasar el resto de tu vida con una persona, quieres que el resto de tu vida empiece lo antes posible»</p>
         </div>
         <div class="row">
-          <div class="col">Foto</div>
-          <div class="col">Foto</div>
+          <div class="col mb-2">
+            <img class="custom-img-us" src="img/nosotros_1.jpg" alt="Nosotros">
+          </div>
+          <div class="col mb-2">
+            <img class="custom-img-us" src="img/nosotros_2.jpg" alt="Nosotros">
+          </div>
         </div>
         <div class="row">
-          <div class="col">Foto</div>
-          <div class="col">Foto</div>
+          <div class="col mb-2">
+            <img class="custom-img-us" src="img/nosotros_3.jpg" alt="Nosotros">
+          </div>
+          <div class="col mb-2">
+            <img class="custom-img-us" src="img/nosotros_4.jpg" alt="Nosotros">
+          </div>
         </div>
         <div class="row">
-          <div class="col">Foto</div>
-          <div class="col">Foto</div>
+          <div class="col mb-2">
+            <img class="custom-img-us" src="img/nosotros_5.jpg" alt="Nosotros">
+          </div>
+          <div class="col mb-2">
+            <img class="custom-img-us" src="img/nosotros_6.jpg" alt="Nosotros">
+          </div>
         </div>
       </section>
-      <section class="bg-section-4  pt-5 pb-5 mb-4">
+      <section class="bg-section-4  pt-5 pb-5 mb-4 no-padding-right">
         <div class="row text-center">
           <img class="custom-img" src="img/gift_icon.png" alt="Regalo Icon">
           <p class="p-font fw-bold mt-4">NUESTRO MEJOR REGALO ES TU ASISTENCIA</p>
           <p class="p-font">SI deseas realizarnos otro regalo, puedes ayudarnos con nuestra luna de miel</p>
-          <button type="button" class="btn btn-default m-auto">DATOS BANCARIOS</button>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-default m-auto" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            DATOS BANCARIOS
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="staticBackdropLabel">Nuestros Datos</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row mb-2">
+                    <p class="text-center fw-bold">QR NEQUI</p>
+                    <img class="custom-img" src="img/qr_nequi_chris.jpeg" alt="QR Nequi Boda">
+                    <p class="text-center fw-bold">3046113520</p>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <strong>Banco:</strong> Bancolombia </br>
+                      <strong>Nombre:</strong> Vanessa Herrera Guerrero </br>
+                      <strong>Cuenta:</strong> 627-768868-53 </br>
+                      <strong>Cedula:</strong> 1023978320 </br>
+                    </div>
+                    <div class="col">
+                      <strong>Banco:</strong> Bancolombia </br>
+                      <strong>Nombre:</strong> Christian David López Pulido </br>
+                      <strong>Cuenta:</strong> 627-768868-61 </br>
+                      <strong>Cedula:</strong> 1233909869 </br>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+      <section class="no-padding-right">
+        <div class="row text-center mb-4">
+          <h2 class="title-font display-4 mt-4">Confirmen su asistencia</h2>
+          <img class="custom-img" src="img/iglesia_icon.png" alt="Iglesia">
+          <p class="p-font mt-4">Esperamos puedas ser parte de esta celebración. Ayudanos a confirmar tu asistencia</p>
+          <a href="https://forms.gle/eG5zYv6o8yZyV4ny5" target="_blank" class="btn btn-default m-auto mb-4">ASISTENCIA</a>
+        </div>
+      </section>
+      <footer class="no-padding-right">
+        <div class="row text-center bg-section-6">
+          <p class="text-light mt-3">Gracias por apoyarnos en este momento <br> tan importante</p>
+        </div>
+      </footer>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

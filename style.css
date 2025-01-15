@@ -25,6 +25,10 @@
   background-color: #d6b4ab;
 }
 
+.bg-section-6 {
+  background-color: #5f4a2d;
+}
+
 /*Fonts Styles*/
 .title-font {
   font-family: "Rouge Script", serif;
@@ -53,4 +57,49 @@
   height: auto; /* Mantiene la proporción de aspecto */
   display: block; /* Asegura que la imagen se comporte como un bloque */
   margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.custom-img-us {
+  width: 180px; /* Ajusta el ancho de la imagen */
+  height: auto; /* Mantiene la proporción de aspecto */
+  display: block; /* Asegura que la imagen se comporte como un bloque */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+  border-radius: 15px;
+  transition: transform 0.3s ease; /* Smooth transition for the transform property */
+}
+
+.custom-img-us:hover {
+  transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+
+.sticky-button {
+  position: fixed; /* Fixes the button to the viewport */
+  top: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the left */
+  z-index: 1000; /* Ensures the button is above other content */
+}
+
+.music-button {
+  position: fixed; /* Fixes the button to the viewport */
+  bottom: 20px; /* Distance from the bottom */
+  right: 20px; /* Distance from the right */
+  z-index: 1000; /* Ensures the button is above other content */
+  background-color: #d6b4ab; /* music green color */
+  border-radius: 50%; /* Make it circular */
+  width: 60px; /* Set width */
+  height: 60px; /* Set height */
+  display: flex; /* Center the icon */
+  justify-content: center; /* Center the icon */
+  align-items: center; /* Center the icon */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.music-button img {
+  width: 30px; /* Set icon size */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.music-button:hover {
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
 }
