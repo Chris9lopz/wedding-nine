@@ -27,7 +27,7 @@ let x = setInterval(function () {
 }, 1000);
 
 // Music Script
-const audio = new Audio("audio/intro_music.mp3");
+const audio = new Audio("audio/perfect.mp3");
 const musicIcon = document.getElementById("music-icon");
 
 const audioBackground = function () {
