@@ -3,6 +3,13 @@
   padding: 0 !important;
 }
 
+.section-spacing {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .no-padding-right {
   padding-right: 0 !important;
 }
@@ -36,7 +43,10 @@
 }
 
 .bg-section-1 {
-  background-color: #7b815d;
+  background: url("./img/flower_bg.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .bg-section-2 {
