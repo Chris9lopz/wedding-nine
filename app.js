@@ -36,7 +36,7 @@ const audioBackground = function () {
     audio.play().catch((error) => {
       console.log("Error al reproducir audio:", error);
     });
-    musicIcon.src = "img/pause_me.png"; // Cambia la imagen a "pausar"
+    musicIcon.src = "img/pause_me2.png"; // Cambia la imagen a "pausar"
   } else {
     audio.pause(); // Pausa el audio
     musicIcon.src = "img/play_me.png"; // Cambia la imagen a "reproducir"
