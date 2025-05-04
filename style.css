@@ -62,12 +62,19 @@
 }
 
 /*Fonts Styles*/
+.cookie-regular {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .title-font {
-  font-family: "Rouge Script", serif;
+  font-family: "Cookie", cursive;
+  font-weight: 300;
 }
 
 .p-font {
-  font-family: "DM Sans", serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .btn-default {
