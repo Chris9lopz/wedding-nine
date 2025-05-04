@@ -15,13 +15,9 @@
 }
 
 /*Background Styles*/
-/* .bg-head {
-  background: url("./img/bg_header.jpg") no-repeat;
-  background-size: cover;
-} */
 
 .bg-head {
-  background: url("./img/bg_header.jpg") no-repeat center center;
+  background: url("./img/header.jpg") no-repeat center center;
   background-size: cover;
   min-height: 80vh; /* Hace que el header ocupe al menos toda la altura de la pantalla */
   padding: 50px 20px; /* Aumenta el padding interno */
