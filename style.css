@@ -28,14 +28,13 @@
 }
 
 .bg-head h2.title-font {
-  font-size: 3rem; /* Tamaño más grande para el texto "Nos casamos!" */
+  font-size: 4rem; /* Tamaño más grande para el texto "Nos casamos!" */
   margin-bottom: 30px;
 }
 
 .bg-head h1.title-font {
   font-size: 3rem; /* Tamaño más grande para los nombres */
   line-height: 1.2;
-  margin-bottom: 50px;
 }
 
 .bg-section-1 {
@@ -148,4 +147,20 @@
 
 .music-button:hover {
   transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
+
+/*Carrousel*/
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #a87b56; /* color de puntos */
 }
