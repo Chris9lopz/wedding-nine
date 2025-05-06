@@ -4,10 +4,14 @@
 }
 
 .section-spacing {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 2px;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.section-spacing-c {
+  margin-top: 2rem;
+  padding-top: 2rem;
 }
 
 .no-padding-right {
@@ -45,6 +49,11 @@
 }
 
 .bg-section-2 {
+  background: url("./img/our_date.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.bg-section-3 {
   background-color: #edeef0;
 }
 
@@ -150,17 +159,29 @@
 }
 
 /*Carrousel*/
-.carousel-item {
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
+.item00 {
+  background: url("./img/we_1.jpg") no-repeat center center/cover;
+  height: 40vh;
+}
+.item01 {
+  background: url("./img/we_3.jpg") no-repeat center center/cover;
+  height: 40vh;
+}
+.item02 {
+  background: url("./img/we_2.jpg") no-repeat center center/cover;
+  height: 40vh;
 }
 
-.card-img-top {
-  height: 200px;
-  object-fit: cover;
+.item03 {
+  background: url("./img/we_4.jpg") no-repeat center center/cover;
+  height: 40vh;
 }
-
-.carousel-indicators [data-bs-target] {
-  background-color: #a87b56; /* color de puntos */
+.item04 {
+  background: url("./img/we_5.jpg") no-repeat center center/cover;
+  height: 40vh;
+}
+.carousel-caption {
+  top: 43%;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 }

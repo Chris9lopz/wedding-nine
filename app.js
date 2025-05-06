@@ -42,3 +42,5 @@ const audioBackground = function () {
     musicIcon.src = "img/play_me.png"; // Cambia la imagen a "reproducir"
   }
 };
+
+// Display carousel
