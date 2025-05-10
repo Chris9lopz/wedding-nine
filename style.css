@@ -179,6 +179,10 @@
   background: url("./img/we_5.jpg") no-repeat center center/cover;
   height: 40vh;
 }
+.item05 {
+  background: url("./img/we_6.jpg") no-repeat center center/cover;
+  height: 40vh;
+}
 .carousel-caption {
   top: 43%;
   padding-top: 0 !important;
